@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/robodudes-redux/static/css/main.4e28c086.css",
+    "main.js": "/robodudes-redux/static/js/main.a8a3a4f4.js",
+    "static/js/787.dbd3e741.chunk.js": "/robodudes-redux/static/js/787.dbd3e741.chunk.js",
+    "service-worker.js": "/robodudes-redux/service-worker.js",
+    "static/media/SEGA.woff": "/robodudes-redux/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/robodudes-redux/index.html",
+    "main.4e28c086.css.map": "/robodudes-redux/static/css/main.4e28c086.css.map",
+    "main.a8a3a4f4.js.map": "/robodudes-redux/static/js/main.a8a3a4f4.js.map",
+    "787.dbd3e741.chunk.js.map": "/robodudes-redux/static/js/787.dbd3e741.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e28c086.css",
+    "static/js/main.a8a3a4f4.js"
+  ]
+}
