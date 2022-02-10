@@ -1,8 +1,8 @@
 {
-  "name": "robofriends",
+  "name": "robodudes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drmarcell.github.io/robofriends-redux",
+  "homepage": "https://drmarcell.github.io/robodudes-redux",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -12,6 +12,7 @@
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-scripts": "^5.0.0",
+    "react-test-renderer": "^17.0.2",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
@@ -29,6 +30,11 @@
     "workbox-routing": "^5.1.4",
     "workbox-strategies": "^5.1.4",
     "workbox-streams": "^5.1.4"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -55,5 +61,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "enzyme-to-json": "^3.6.2",
+    "jest": "^27.4.7"
   }
 }
